@@ -152,5 +152,6 @@ CRISPY_TEMPLATE_PACK = "bootstrap5"
 
 import os
 
-SECRET_KEY = os.environ.get("SECRET_KEY", "unsafe-default-key")  
-DEBUG = os.environ.get("DEBUG", "False") == "True"
+SECRET_KEY = os.environ.get('SECRET_KEY', 'unsafe-dev-key')
+DEBUG = os.environ.get('DEBUG', 'False') == 'True'
+ALLOWED_HOSTS = os.environ.get("ALLOWED_HOSTS", "*").split(",")
