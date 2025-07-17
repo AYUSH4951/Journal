@@ -149,3 +149,8 @@ MESSAGE_TAGS = {
 
 CRISPY_ALLOWED_TEMPLATE_PACKS = ["bootstrap5"]
 CRISPY_TEMPLATE_PACK = "bootstrap5"
+
+import os
+
+SECRET_KEY = os.environ.get("SECRET_KEY", "unsafe-default-key")  
+DEBUG = os.environ.get("DEBUG", "False") == "True"
