@@ -4,7 +4,7 @@ A secure and personalized web app that allows users to write journal entries and
 
 ---
 
-## ✨ Features
+##  Features
 
 - 📝 Create, edit, and delete journal entries
 - 🤖 AI analysis of journal content using Gemini API
@@ -15,7 +15,7 @@ A secure and personalized web app that allows users to write journal entries and
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 - **Backend:** Django (Python)
 - **Frontend:** HTML, CSS, Bootstrap
